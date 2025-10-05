@@ -1,0 +1,22 @@
+execution_duration_ms: 16368
+request_preview: '{"input_str": "Search for an entity named Oyo", "transaction_file":
+  null}'
+request_time: '2025-10-05T20:46:08.624Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Oyo\",\n    \"overall_risk_rating\":
+  \"MEDIUM\",\n    \"is_red_flag\": \"Partially — requires Enhanced Due Diligence
+  (EDD) due to PEP and reputational exposure\",\n    \"summary\": \"Oyo is a well-known
+  hospitality company founded by Ritesh Agarwal, who is a high-profile entrepreneur.
+  While Oyo itself is not directly flagged for any illicit activities, Ritesh Agarwal''s
+  status as a high-net-worth individual and potential PEP due to his business connections
+  warrant medium risk classification and enhanced monitoring.\"\n  }\n}", "content":
+  ["NO, There is no information related to Transaction monitoring activity", "NO,
+  There is no information related to Transaction monitoring activity"], "media": ["...
+  #DivorceTrap #OyoHotelScandal #meerut #news #viralvideos. more. August 3. OCR. Oyo
+  में3 मर्दों के साथ थी पत्नी, पति ने रंग हाथ पकडा, तो बालकनी कूदकर भाग खड़ी हुई पत्री
+  अर्नो्तोंेरकोे.", "The Rajasthan High Court Tuesday granted...'
+state: OK
+trace_id: tr-ea4d3fb7ebfbe5a4350f5ad01a406341
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

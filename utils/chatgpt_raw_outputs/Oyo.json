@@ -1,0 +1,96 @@
+{
+  "short_answer": {
+    "name": "Oyo (Oravel Stays Pvt. Ltd. / Oyo Hotels & Homes)",
+    "overall_risk_rating": "Medium → High",
+    "is_red_flag": "Yes — multiple legal, regulatory, and reputational issues suggest caution and requirement for Enhanced Due Diligence (EDD).",
+    "summary": "Oyo has been repeatedly exposed in adverse media, legal cases (FIRs, partner disputes, regulatory scrutiny), allegations of inflated financials/fake bookings, partner dissatisfaction, and IPO / governance concerns. While there is no known sanctions listing, the pattern of disputes and discrepancies imposes substantive risk for any financial or partnership exposure."
+  },
+
+  "long_answer": {
+    "basic_information": {
+      "full_name": "Oravel Stays Private Limited",
+      "also_known_as": "Oyo / OYO Hotels & Homes",
+      "founder": "Ritesh Agarwal",
+      "incorporation": "India (and other jurisdictions via subsidiaries)",
+      "primary business": "Hospitality / Budget hotel aggregator and operator",
+      "sources": [
+        "Financial Express — FIR against OYO for fake bookings, Jaipur GST notice. :contentReference[oaicite:0]{index=0}",
+        "LiveMint — Jaipur resort files FIR vs OYO concerning ₹2.66 crore GST notice. :contentReference[oaicite:1]{index=1}",
+        "Contrary Research — partner dissatisfaction, commission & payment delays. :contentReference[oaicite:2]{index=2}",
+        "Reuters / Bloomberg — delays in IPO and concerns over financial performance. :contentReference[oaicite:3]{index=3}"
+      ]
+    },
+
+    "risk_checklist": {
+      "pep_status": {
+        "status": "No evidence (open-source) that Oyo is a PEP",
+        "details": "No public record of ownership by or senior leadership overlap with known Politically Exposed Persons; the founder is a private entrepreneur."
+      },
+      "sanctions_watchlists": {
+        "status": "No known matches in open-source checks",
+        "details": "No credible data found that Oyo or its executives are on OFAC / UN / EU sanctions lists in recent searches. Vendor/official screening still needed."
+      },
+      "adverse_media": {
+        "status": "High",
+        "details": [
+          {
+            "case": "Jaipur FIR (Samskara Resort) alleging fake bookings inflated to generate GST liability, and charges of cheating, forgery, criminal breach of trust. :contentReference[oaicite:4]{index=4}"
+          },
+          {
+            "case": "Unauthorized hotels using Oyo branding, leading to police action / legal notices in Ghaziabad. :contentReference[oaicite:5]{index=5}"
+          },
+          {
+            "case": "Zostel / ZO Rooms disputes: allegations of misuse of data, disagreement over due diligence in acquisition, claims of unfairness. :contentReference[oaicite:6]{index=6}"
+          },
+          {
+            "case": "Partner hotel complaints: invalid NOCs, high commissions, wrongful withholding of payments or misreporting. :contentReference[oaicite:7]{index=7}"
+          }
+        ]
+      },
+      "criminal_records": {
+        "status": "Some FIRs / legal complaints (pending), but no publicly confirmed criminal convictions (open source)",
+        "details": "The Jaipur FIR over fake bookings is active; other complaints exist but outcome/resolution is not fully transparent in public sources. :contentReference[oaicite:8]{index=8}"
+      },
+      "financial_profile": {
+        "status": "Weak / Volatile",
+        "details": "Persistent losses; revenue drop (as reported); high dependency on investor funding; challenging partner relations; delays / cancellations in IPO filings due to financials or investor objections. :contentReference[oaicite:9]{index=9}"
+      },
+      "ubo_and_corporate_linkages": {
+        "status": "Some transparency but complex structure",
+        "details": "Oyo has multiple entities/subsidiaries, brand licensing, presumably multiple jurisdictions. Need to verify all beneficial owners, controlling shareholders, especially major investors (SoftBank etc.)."
+      },
+      "transactional_red_flags": {
+        "status": "Moderate",
+        "details": "Allegations of inflated booking reports, fake or unavailable rooms listed, commission dilution or misreporting, partner claims of withheld payments. :contentReference[oaicite:10]{index=10}"
+      }
+    },
+
+    "risk_assessment_summary": {
+      "sanctions_risk": "Low",
+      "regulatory_risk": "Medium to High",
+      "reputational_risk": "High",
+      "criminal_risk": "Medium (pending outcomes of legal cases)",
+      "overall_risk_rating": "Medium → High",
+      "risk_reasoning": "While no verifiable sanctions or criminal convictions are fully confirmed in open sources, Oyo has multiple reputational and regulatory issues. Its financial track record, partner disputes, and recent FIRs expose the company to real risk. Any business relationship needs strong EDD."
+    },
+
+    "recommendation": {
+      "onboarding_decision": "Proceed only with Enhanced Due Diligence; for any substantial exposure or counterparties with Oyo, consider higher risk mitigation or possibly decline based on risk appetite.",
+      "edd_measures_if_needed": [
+        "Obtain audited financial statements and cash flow history for the last few years",
+        "Assess reports of partner complaints; seek documentary proof from partners",
+        "Run formal sanctions / PEP / legal screenings for the entity, its major investors and key management",
+        "Verify corporate registration, beneficial ownership, corporate structure, and investor obligations",
+        "Review pending legal cases / FIRs, regulatory notices, and risk of liability/costs"
+      ]
+    },
+
+    "sources_and_references": {
+      "FIR_fake_bookings_Jaipur": "Financial Express / Hindustan Times / LiveMint on FIR over fake bookings, ₹2.66 crore GST notice. :contentReference[oaicite:11]{index=11}",
+      "Unauthorized_brand_usage": "Oyo & Ghaziabad Police sealing unauthorized hotels misusing OYO brand. :contentReference[oaicite:12]{index=12}",
+      "Zostel_dispute": "Articles on ZO Rooms / Zostel vs Oyo — due diligence issues and asset/data disputes. :contentReference[oaicite:13]{index=13}",
+      "Partner complaints & unfair practices": "Treebo, hoteliers complaints on commissions, NOCs etc. :contentReference[oaicite:14]{index=14}",
+      "IPO / financial performance concerns": "Delay of IPOs; FHRAI cautioning SEBI; financial drop in revenue; SoftBank opposition. :contentReference[oaicite:15]{index=15}"
+    }
+  }
+}

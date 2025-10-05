@@ -1,0 +1,21 @@
+execution_duration_ms: 22945
+request_preview: '{"input_str": "Search for an entity named Oyo", "transaction_file":
+  null}'
+request_time: '2025-10-05T21:01:22.296Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Oyo\",\n    \"overall_risk_rating\":
+  \"Medium\",\n    \"is_red_flag\": \"No\",\n    \"summary\": \"Oyo is a hospitality
+  company known for its budget hotels and accommodations. While there are no direct
+  red flags associated with the entity, it is advisable to conduct enhanced due diligence
+  due to potential risks in the hospitality industry.\"\n  },\n  \"long_answer\":
+  {\n    \"basic_information\": {\n      \"full_name\": \"Oyo Hotels & Homes\",\n      \"aliases\":
+  \"Oyo Rooms\",\n      \"country_of_origin\": \"India\",\n      \"primary_business_or_occupation\":
+  \"Hospitality\",\n      \"known_associates\": \"Ritesh Agarwal (Founder)\",\n      \"sources\":
+  [\"https://www.oyorooms.com/\", \"https://en.wikipedia.org/wiki/Oyo_Rooms\"]\n    },\n    \"risk_checklist\":
+  {\n      \"pep_status\": { \"status\": \"No\", \"details\": \"No known politically
+  exposed persons associated with Oyo.\" },\n      \"sanctions_watchlists\": { \"...'
+state: OK
+trace_id: tr-a543c3ded02bdfcab41015e44cafe46f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

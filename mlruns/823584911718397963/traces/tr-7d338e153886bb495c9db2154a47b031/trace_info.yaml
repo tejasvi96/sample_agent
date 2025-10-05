@@ -1,0 +1,11 @@
+execution_duration_ms: 9
+request_preview: '{"details": "Search for an entity named Axact", "transaction_file":
+  null}'
+request_time: '2025-10-05T20:45:39.453Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-7d338e153886bb495c9db2154a47b031
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

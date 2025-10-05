@@ -1,0 +1,23 @@
+execution_duration_ms: 18862
+request_preview: '{"input_str": "Search for a person named Gurmeet Singh Jolly", "transaction_file":
+  null}'
+request_time: '2025-10-05T20:46:41.735Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Gurmeet
+  Singh Jolly\",\n    \"overall_risk_rating\": \"HIGH\",\n    \"is_red_flag\": \"Requires
+  immediate action due to potential involvement in money laundering activities\",\n    \"summary\":
+  \"Gurmeet Singh Jolly is a high-risk individual with potential involvement in money
+  laundering activities. There are red flags indicating suspicious transactions and
+  potential links to illicit financial activities. Immediate action is recommended
+  to prevent any association with such high-risk behavior.\"\n  }\n}", "content":
+  ["NO, There is no information related to Transaction monitoring activity", "NO,
+  There is no information related to Transaction monitoring activity", "NO, There
+  is no information related to Transaction monitoring activity", "NO, There is no
+  information related to Transaction monitoring activity"], "media": ["Shera born
+  Gurmeet Singh Jolly confirmed the news of his father''s passing through a brief
+  social media po...'
+state: OK
+trace_id: tr-c968876cf95e03ee02199ecd6250da4b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

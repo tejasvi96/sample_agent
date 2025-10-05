@@ -1,0 +1,23 @@
+execution_duration_ms: 15217
+request_preview: '{"input_str": "Search for a person named Sheikh Mohamed bin Zayed",
+  "transaction_file": null}'
+request_time: '2025-10-05T20:47:31.357Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Sheikh
+  Mohamed bin Zayed\",\n    \"overall_risk_rating\": \"HIGH\",\n    \"is_red_flag\":
+  \"Requires immediate action - High Risk Individual\",\n    \"summary\": \"Sheikh
+  Mohamed bin Zayed is the Crown Prince of Abu Dhabi and Deputy Supreme Commander
+  of the UAE Armed Forces. As a member of the royal family and a high-ranking government
+  official, he is classified as a Politically Exposed Person (PEP) with significant
+  influence and access to state funds. Due to his PEP status and potential exposure
+  to corruption risks, he poses a high risk for financial institutions and requires
+  immediate action to prevent any association that could lead to reputational damage
+  or regulatory sanctions.\"\n  }\n}", "content": ["NO, There is no information related
+  to Transaction monitoring activity", "NO, There is no information related to Transaction
+  monitoring activity", "NO, There is no information related to Transaction monitoring
+  activity...'
+state: OK
+trace_id: tr-3d330f20ad59ea049d6045d3c88817cc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

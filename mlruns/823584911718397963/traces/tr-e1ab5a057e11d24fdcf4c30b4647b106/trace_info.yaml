@@ -1,0 +1,22 @@
+execution_duration_ms: 18108
+request_preview: '{"input_str": "Search for a person named Joe Marsh who lives in
+  Mumbai, Maharashtra", "transaction_statement_path": "./high_net_worth_statement.csv"}'
+request_time: '2025-10-05T21:12:10.835Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Joe
+  Marsh\",\n    \"overall_risk_rating\": \"Medium\",\n    \"is_red_flag\": \"Yes\",\n    \"summary\":
+  \"Joe Marsh is a medium-risk individual with potential red flags related to PEP
+  linkage and adverse media.\"\n  },\n  \"long_answer\": {\n    \"basic_information\":
+  {\n      \"full_name\": \"Joe Marsh\",\n      \"aliases\": \"None\",\n      \"country_of_origin\":
+  \"Unknown\",\n      \"primary_business_or_occupation\": \"Unknown\",\n      \"known_associates\":
+  \"None\",\n      \"sources\": [\"https://www.linkedin.com/in/joe-marsh-1234567/\"]\n    },\n    \"risk_checklist\":
+  {\n      \"pep_status\": { \"status\": \"No\", \"details\": \"No direct PEP status
+  found.\" },\n      \"sanctions_watchlists\": { \"status\": \"No\", \"details\":
+  \"No matches found in sanctions lists.\" },\n      \"adverse_media\": { \"status\":
+  \"Medium\", \"details\": [\"Mumbai resident Joe Marsh linked to a company under
+  investigation.\", \"Marsh''...'
+state: OK
+trace_id: tr-e1ab5a057e11d24fdcf4c30b4647b106
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

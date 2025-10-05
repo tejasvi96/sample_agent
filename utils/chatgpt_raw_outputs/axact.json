@@ -1,0 +1,99 @@
+{
+  "short_answer": {
+    "name": "Axact (Axact Pvt. Ltd.)",
+    "overall_risk_rating": "High",
+    "is_red_flag": "Yes — major adverse-media, criminal convictions/pleas, and multi-jurisdictional enforcement actions make Axact a material red flag for onboarding or business relationships.",
+    "summary": "Axact has been the subject of high-profile investigative reporting (New York Times), criminal investigations by Pakistan's FIA, a U.S. federal guilty plea and sentence for a senior executive (wire-fraud), and Pakistani court prosecutions. The combined weight of investigative journalism, U.S. DOJ action, and Pakistani prosecutions establishes significant reputational and legal risk."
+  },
+
+  "long_answer": {
+    "1_investigation_workflow": {
+      "description": "Steps followed to assess Axact (standard KYC/EDD playbook).",
+      "steps": {
+        "1": "Identity capture — entity names, registrations, jurisdictions, trade names (Axact, Axact FZ LLC, BOL Network).",
+        "2": "Sanctions & watchlist screening — run OFAC/UN/EU and commercial PEP/sanctions vendor checks (exact + fuzzy).",
+        "3": "Adverse media search — review NYT, Reuters, Dawn, Tribune, OCCRP and other reputable outlets; capture screenshots and dates. :contentReference[oaicite:0]{index=0}",
+        "4": "Criminal & regulatory records — collect FIRs, DOJ press releases, Pakistani court judgments and FIA filings. :contentReference[oaicite:1]{index=1}",
+        "5": "Corporate structure & UBO — review SECP filings, UAE company records (Axact FZ LLC) and related entities (BOL Network). :contentReference[oaicite:2]{index=2}",
+        "6": "Transaction & network analysis — if accounts appear, trace flows for layering and transfers to high-risk jurisdictions.",
+        "7": "SoF/SoW verification — request audited financials, bank statements, customer contracts; corroborate income sources.",
+        "8": "Risk scoring & disposition — combine PEP, sanctions, adverse media, SoF reliability, jurisdiction risk and transaction red flags into a final rating.",
+        "9": "Escalate & report — freeze/hold, file SAR/STR to FIU, and obtain senior compliance/legal signoff if suspicious activity is found.",
+        "10": "Ongoing monitoring — periodic rescreening and watchlisting for new enforcement or media developments."
+      }
+    },
+
+    "2_checklist": {
+      "items": [
+        "Full legal entity names and aliases (Axact; Axact FZ LLC; BOL Network).",
+        "Country of incorporation and registration numbers (Pakistan; UAE entities).",
+        "Sanctions/SDN and PEP vendor screening results (attach screenshots).",
+        "Adverse media dossier (NYT exposé; major press articles — attach PDFs). :contentReference[oaicite:3]{index=3}",
+        "Criminal/regulatory filings (FIA FIRs; DOJ press releases; court judgments). :contentReference[oaicite:4]{index=4}",
+        "UBO map and shareholder registry extracts (SECP, UAE).",
+        "Source of funds / source of wealth documentation from the entity.",
+        "Transaction history & anomalous flow analysis (if accounts exist).",
+        "Risk score with rationale and recommended disposition (decline / hold / EDD + limits).",
+        "Preserved evidence (screenshots, court PDFs, vendor screening outputs)."
+      ]
+    },
+
+    "3_findings_on_axact": {
+      "A_major_investigative_exposure": {
+        "fact": "The New York Times published a major investigative exposé (May 17, 2015) alleging Axact ran hundreds of fake university, accreditation and degree websites worldwide; this story triggered global scrutiny and domestic probes.",
+        "citation": ":contentReference[oaicite:5]{index=5}"
+      },
+      "B_domestic_enforcement_and_raids": {
+        "fact": "Pakistan's Federal Investigation Agency (FIA) raided Axact offices and registered FIRs in 2015; CEO Shoaib Ahmed Shaikh and others were arrested in subsequent enforcement actions. Pakistani courts have had multiple related proceedings. ",
+        "citation": ":contentReference[oaicite:6]{index=6}"
+      },
+      "C_international_criminal_action": {
+        "fact": "Umair Hamid, a senior Axact executive, pled guilty in U.S. federal court to conspiracy to commit wire fraud in April 2017 and was sentenced to 21 months in prison (DOJ/Southern District of New York).",
+        "citation": ":contentReference[oaicite:7]{index=7}"
+      },
+      "D_pakistani_prosecutions_and_litigation": {
+        "fact": "Pakistani sessions courts issued sentences in 2018 against Axact personnel (reports of up to 20 years for the CEO and others in some reports), though the litigation has been complex with acquittals, overturned orders, allegations of judicial bribery, and higher-court proceedings (Sindh High Court decisions in 2023).",
+        "citation": ":contentReference[oaicite:8]{index=8}"
+      },
+      "E_scope_and_modus_operandi": {
+        "fact": "Investigations and reporting indicate Axact operated a large network of fraudulent domains, call centers, and staff impersonating educational officials to sell fake degrees globally — creating mass fraud, identity misuse, and cross-border victimization.",
+        "citation": ":contentReference[oaicite:9]{index=9}"
+      }
+    },
+
+    "4_risk_assessment": {
+      "entity_risk": "High — proven criminal activity by senior staff and extensive adverse media.",
+      "sanctions_status": "No prominent OFAC/UN/EU consolidated sanctions listing found in this open-source pass — but absence of sanctions does not reduce reputational/criminal risk; run vendor/OFAC API checks for compliance-grade clearance.",
+      "associated_persons_to_flag": [
+        "Shoaib Ahmed Shaikh (Founder/CEO) — primary individual to flag. :contentReference[oaicite:10]{index=10}",
+        "Umair Hamid (senior VP — guilty plea in U.S.). :contentReference[oaicite:11]{index=11}",
+        "Ayesha Shaikh (director/spouse) and named Axact executives/directors in court filings"
+      ],
+      "overall_conclusion": "Axact presents material legal and reputational risk and should be treated as a red flag for onboarding or business relationships."
+    },
+
+    "5_operational_recommendations": {
+      "1": "If Axact appears in any onboarding, UBO, beneficiary or counterparty field → hold/onboard-with-strict-limits only after Senior Compliance & Legal approval; prefer decline in most cases.",
+      "2": "Run immediate vendor-grade screenings (Refinitiv/Dow Jones/World-Check + OFAC/UN/EU/UK) using the entity and associated-person strings. :contentReference[oaicite:12]{index=12}",
+      "3": "If transactional links exist, preserve transaction records, consider freezing funds if legally permitted, and file a SAR/STR with your FIU when appropriate.",
+      "4": "Request audited financial statements, incorporation extracts, and full UBO disclosures; if the counterparty refuses or documents are unreliable, decline the relationship.",
+      "5": "Create an adverse-media dossier (NYT, DOJ, Dawn, Tribune, SHC PDFs) and store it in the case file for audit/regulatory defence. :contentReference[oaicite:13]{index=13}"
+    },
+
+    "6_watchlist_strings": {
+      "entities": ["Axact", "Axact Pvt Ltd", "Axact FZ LLC", "BOL Network", "BOL TV"],
+      "individuals": ["Shoaib Ahmed Shaikh", "Umair Hamid", "Ayesha Shaikh"],
+      "related_domains_examples": ["Belford University", "Columbiana University", "Barkley University"]
+    },
+
+    "7_sources_and_references": {
+      "NYT_exposé": ":contentReference[oaicite:14]{index=14}",
+      "DOJ_US_SDNY_Umair_Hamid": ":contentReference[oaicite:15]{index=15}",
+      "Pakistani_press_and_FIA_actions": ":contentReference[oaicite:16]{index=16}",
+      "Pakistani_sessions_and_SHC_documents": ":contentReference[oaicite:17]{index=17}",
+      "academic_and_credential_evaluator_summaries": ":contentReference[oaicite:18]{index=18}"
+    },
+
+    "8_final_recommendation": "Treat Axact and related parties as a RED FLAG. Avoid onboarding; if exposure exists, escalate immediately to Senior Compliance & Legal, assemble an evidence dossier, and consider SAR/STR filings for suspicious transactions."
+  }
+}

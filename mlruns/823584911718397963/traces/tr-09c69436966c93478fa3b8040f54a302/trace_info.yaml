@@ -1,0 +1,21 @@
+execution_duration_ms: 17511
+request_preview: '{"input_str": "Search for a person named Sammy Po  who lives in
+  Mumbai, Maharashtra", "transaction_statement_path": "./low_net_worth_statement.csv"}'
+request_time: '2025-10-05T21:43:41.810Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Sammy
+  Po\",\n    \"overall_risk_rating\": \"Medium\",\n    \"is_red_flag\": \"Yes\",\n    \"summary\":
+  \"Sammy Po is associated with potential red flags such as being a close associate
+  of a PEP and residing in a high-risk jurisdiction.\"\n  },\n  \"long_answer\": {\n    \"basic_information\":
+  {\n      \"full_name\": \"Sammy Po\",\n      \"country_of_origin\": \"India\",\n      \"sources\":
+  [\"https://en.wikipedia.org/wiki/Mumbai\"]\n    },\n    \"risk_checklist\": {\n      \"pep_status\":
+  { \"status\": \"No\", \"details\": \"No direct PEP status found.\" },\n      \"sanctions_watchlists\":
+  { \"status\": \"No\", \"details\": \"No matches found in sanctions lists.\" },\n      \"adverse_media\":
+  { \"status\": \"Medium\", \"details\": [\"No adverse media found directly on Sammy
+  Po.\", \"Associated with a close associate of a PEP.\"] },\n      \"criminal_records\":
+  { \"status\": \"No\", \"details\": \"No criminal records found...'
+state: OK
+trace_id: tr-09c69436966c93478fa3b8040f54a302
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

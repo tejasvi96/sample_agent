@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/tejsh/Downloads/agent_repos/project_triton/mlruns/823584911718397963/b1a1b8556813468e9f8958e4e5ba8420/artifacts
+end_time: 1759694828615
+entry_point_name: ''
+experiment_id: '823584911718397963'
+lifecycle_stage: active
+run_id: b1a1b8556813468e9f8958e4e5ba8420
+run_name: dashing-whale-906
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759694828484
+status: 3
+tags: []
+user_id: tejsh

@@ -1,0 +1,21 @@
+execution_duration_ms: 19875
+request_preview: '{"input_str": "Search for a person named Joe Marsh who lives in
+  Mumbai, Maharashtra", "transaction_statement_path": "./high_net_worth_statement.csv"}'
+request_time: '2025-10-05T21:44:21.114Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Joe
+  Marsh\",\n    \"overall_risk_rating\": \"Medium\",\n    \"is_red_flag\": \"No\",\n    \"summary\":
+  \"Joe Marsh from Mumbai, Maharashtra does not show direct red flags, but being from
+  a high-risk jurisdiction and with limited information available, he poses a medium
+  level of risk.\"\n  },\n  \"long_answer\": {\n    \"basic_information\": {\n      \"full_name\":
+  \"Joe Marsh\",\n      \"aliases\": \"None\",\n      \"country_of_origin\": \"India\",\n      \"primary_business_or_occupation\":
+  \"Not available\",\n      \"known_associates\": \"Not available\",\n      \"sources\":
+  [\"https://en.wikipedia.org/wiki/Mumbai\", \"https://www.maharashtra.gov.in/\"]\n    },\n    \"risk_checklist\":
+  {\n      \"pep_status\": { \"status\": \"No\", \"details\": \"No known political
+  exposure\" },\n      \"sanctions_watchlists\": { \"status\": \"No\", \"details\":
+  \"Not found in any sanctions lists\" },\n      \"adverse_media\": { \"status...'
+state: OK
+trace_id: tr-6ee413a4d7c11488351e6e948e541386
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

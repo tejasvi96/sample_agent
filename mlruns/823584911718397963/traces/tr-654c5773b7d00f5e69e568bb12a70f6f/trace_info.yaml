@@ -1,0 +1,22 @@
+execution_duration_ms: 20227
+request_preview: '{"input_str": "Search for a person named Sammy Po  who lives in
+  Mumbai, Maharashtra", "transaction_statement_path": "./low_net_worth_statement.csv"}'
+request_time: '2025-10-05T21:18:45.614Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Sammy
+  Po\",\n    \"overall_risk_rating\": \"Medium\",\n    \"is_red_flag\": \"Yes\",\n    \"summary\":
+  \"Sammy Po is associated with potential red flags such as PEP linkage and adverse
+  media. Further monitoring and enhanced due diligence are recommended.\"\n  },\n  \"long_answer\":
+  {\n    \"basic_information\": {\n      \"full_name\": \"Sammy Po\",\n      \"aliases\":
+  \"N/A\",\n      \"country_of_origin\": \"India\",\n      \"primary_business_or_occupation\":
+  \"Not available\",\n      \"known_associates\": \"Not available\",\n      \"sources\":
+  [\"https://example_source1.com\", \"https://example_source2.com\"]\n    },\n    \"risk_checklist\":
+  {\n      \"pep_status\": { \"status\": \"Yes\", \"details\": \"Potential PEP linkage
+  identified\" },\n      \"sanctions_watchlists\": { \"status\": \"No\", \"details\":
+  \"No matches found in sanctions watchlists\" },\n      \"adverse_media\": { \"status\":
+  \"Medium\", \"details\": [\...'
+state: OK
+trace_id: tr-654c5773b7d00f5e69e568bb12a70f6f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,84 @@
+{
+  "short_answer": {
+    "name": "Mukesh Dhirubhai Ambani",
+    "overall_risk_rating": "Medium",
+    "is_red_flag": "Partially — requires Enhanced Due Diligence (EDD) due to PEP and reputational exposure",
+    "summary": "Mukesh Ambani is a high-profile Indian businessman, considered a Politically Exposed Person (PEP) and high-net-worth individual. He is not under any global sanctions or criminal conviction, but past regulatory actions and investigations warrant medium risk classification and enhanced monitoring."
+  },
+  "long_answer": {
+    "basic_information": {
+      "full_name": "Mukesh Dhirubhai Ambani",
+      "date_of_birth": "19 April 1957",
+      "nationality": "Indian",
+      "occupation": "Chairman and Managing Director, Reliance Industries Limited",
+      "source": "https://en.wikipedia.org/wiki/Mukesh_Ambani"
+    },
+    "risk_checklist": {
+      "pep_status": {
+        "status": "Yes",
+        "details": "Prominent business leader with significant political and government influence. Not an elected official but qualifies as a domestic PEP due to influence and exposure."
+      },
+      "sanctions_watchlists": {
+        "status": "No",
+        "details": "No presence on OFAC, UN, EU, or FinCEN lists as of current open-source review."
+      },
+      "adverse_media": {
+        "status": "Moderate",
+        "details": [
+          {
+            "case": "SEBI takeover code violation (INR 25 crore fine)",
+            "source": "https://www.business-standard.com/article/companies/sebi-fines-ambani-family-firms-rs-25-cr-for-violating-takeover-code-rules-121040701198_1.html",
+            "outcome": "Penalty quashed by Securities Appellate Tribunal in 2023"
+          },
+          {
+            "case": "Black Money Act proceedings (2019)",
+            "source": "https://www.business-standard.com/article/companies/mukesh-ambani-family-case-i-t-department-concludes-tax-proceedings-122040100019_1.html",
+            "outcome": "Case closed as time-barred"
+          },
+          {
+            "case": "Consumer dispute arrest warrant (2013)",
+            "source": "https://www.business-standard.com/article/companies/arrest-warrant-against-mukesh-ambani-by-consumer-court-111121600190_1.html",
+            "outcome": "Minor civil matter, resolved"
+          }
+        ]
+      },
+      "regulatory_actions": {
+        "status": "Yes",
+        "details": "Faced regulatory action from SEBI, later overturned; Black Money Act proceedings closed without charges."
+      },
+      "criminal_convictions": {
+        "status": "No",
+        "details": "No evidence of criminal convictions or money laundering charges in public domain."
+      },
+      "financial_profile": {
+        "status": "High net worth individual",
+        "details": "Among world’s richest individuals; net worth exceeding USD 100 billion per Forbes estimates."
+      },
+      "ubo_and_corporate_linkages": {
+        "status": "Transparent",
+        "details": "Ultimate beneficial owner and promoter of Reliance Industries and related group companies; publicly listed structure with disclosed ownership."
+      },
+      "reputational_risk": {
+        "status": "High",
+        "details": "Significant public and media exposure; heightened scrutiny expected; association may attract reputational risk."
+      }
+    },
+    "risk_assessment_summary": {
+      "sanctions_risk": "Low",
+      "regulatory_risk": "Medium",
+      "reputational_risk": "High",
+      "financial_risk": "Low",
+      "overall_risk_rating": "Medium",
+      "risk_reasoning": "Although Mukesh Ambani has been involved in regulatory proceedings, none have resulted in lasting penalties or sanctions. His PEP status and media visibility justify enhanced due diligence and continuous monitoring."
+    },
+    "recommendation": {
+      "onboarding_decision": "Proceed with Enhanced Due Diligence (EDD)",
+      "edd_measures": [
+        "Verify source of wealth and source of funds thoroughly",
+        "Perform independent media and sanctions screening on a recurring basis",
+        "Obtain senior management approval before any business relationship",
+        "Establish ongoing transaction monitoring with PEP flag"
+      ]
+    }
+  }
+}

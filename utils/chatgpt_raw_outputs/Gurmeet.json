@@ -1,0 +1,83 @@
+{
+  "short_answer": {
+    "name": "Gurmeet Singh Jolly (aka Shera)",
+    "overall_risk_rating": "Low → Medium (reputational exposure)",
+    "is_red_flag": "No (not a PEP or sanctions-listed). Moderate reputational risk because of close association with a high-profile celebrity (Salman Khan).",
+    "summary": "Gurmeet Singh Jolly, widely known as Shera, is Salman Khan’s long-time personal bodyguard and head of security. Open-source checks show no sanctions or criminal convictions; primary risks are reputational and relationship-based (high-profile association)."
+  },
+
+  "long_answer": {
+    "basic_information": {
+      "full_name": "Gurmeet Singh Jolly",
+      "also_known_as": "Shera",
+      "date_of_birth": "19 May 1969 (reported)",
+      "nationality": "Indian",
+      "occupation": "Celebrity bodyguard; proprietor of Tiger Security",
+      "notable_association": "Personal bodyguard and head of security for actor Salman Khan since 1995",
+      "sources": [
+        "Shera (Indian bodyguard) — profile (search result). :contentReference[oaicite:0]{index=0}",
+        "Tiger Security / public profiles and media coverage. :contentReference[oaicite:1]{index=1}"
+      ]
+    },
+
+    "risk_checklist": {
+      "pep_status": {
+        "status": "No",
+        "details": "No evidence he has held a public office or qualifies as a PEP under FATF definitions. (He is a private security professional and a celebrity associate.)",
+        "citation": ":contentReference[oaicite:2]{index=2}"
+      },
+      "sanctions_watchlists": {
+        "status": "No",
+        "details": "No matches found in open-source checks to OFAC/UN/EU sanctions lists (open-source review). Formal vendor/API screening recommended for compliance-grade clearance."
+      },
+      "adverse_media": {
+        "status": "Low",
+        "details": "Recent media coverage is personal/biographical (e.g., reports of his father’s death) and profile pieces about his role as Salman Khan’s bodyguard; no credible reports of corruption, money laundering, or serious criminal allegations found in open sources. :contentReference[oaicite:3]{index=3}"
+      },
+      "criminal_records": {
+        "status": "No (open-source)",
+        "details": "No public criminal convictions or enforcement actions discovered in the searches performed."
+      },
+      "financial_profile": {
+        "status": "Private / HNWI unlikely",
+        "details": "Reports estimate income from security services and Tiger Security operations, but there is no public evidence that he is a high-net-worth individual of the type that by itself raises AML concerns. Treat as private individual with business income."
+      },
+      "ubo_and_corporate_linkages": {
+        "status": "Tiger Security (proprietor)",
+        "details": "Heads Tiger Security (publicly referenced). If his name appears as UBO/beneficiary of any corporate account, treat as a normal UBO check and request corporate documents. :contentReference[oaicite:4]{index=4}"
+      },
+      "transactional_red_flags": {
+        "status": "None found (open-source)",
+        "details": "No unusual transaction patterns publicly visible. Any transactional hit in your systems should be investigated and matched on identifiers (DOB, ID, address) before escalation."
+      }
+    },
+
+    "risk_assessment_summary": {
+      "sanctions_risk": "Low",
+      "regulatory_risk": "Low",
+      "reputational_risk": "Medium (association risk because of celebrity client)",
+      "criminal_risk": "Low (no public convictions)",
+      "overall_risk_rating": "Low → Medium",
+      "risk_reasoning": "He is a high-profile private security professional tied closely to a very public celebrity. That creates reputational exposure if your company is publicly associated with him, but no indication of sanctions, PEP status, or money-laundering activity was found in open sources."
+    },
+
+    "recommendation": {
+      "onboarding_decision": "Proceed with standard CDD; escalate to EDD only if the person appears as a UBO/beneficiary or if transactional activity looks suspicious.",
+      "edd_measures_if_needed": [
+        "Verify government ID (passport / national ID) and DOB",
+        "Collect proof of address and business registration for Tiger Security (if relevant)",
+        "Run formal sanctions & PEP vendor screening (exact + fuzzy) using identifiers",
+        "If an account shows unusual flows, preserve transaction records and escalate to Legal/Compliance"
+      ],
+      "monitoring": "If onboarded, set normal monitoring rules; consider heightened adverse-media watch while the celebrity association remains public."
+    },
+
+    "sources_and_references": {
+      "profile_page": "Shera (Indian bodyguard) — profile (search result). :contentReference[oaicite:5]{index=5}",
+      "news_father_death": "Times of India — Shera's father passes away (recent coverage). :contentReference[oaicite:6]{index=6}",
+      "ndtv_profile_video": "NDTV video/profile: Being Shera — Salman Khan's bodyguard. :contentReference[oaicite:7]{index=7}",
+      "social_media_profile": "Shera Instagram (public posts confirming identity/association). :contentReference[oaicite:8]{index=8}",
+      "additional_media": "Indian Express / Hindustan Times coverage of family event and condolences. :contentReference[oaicite:9]{index=9}"
+    }
+  }
+}

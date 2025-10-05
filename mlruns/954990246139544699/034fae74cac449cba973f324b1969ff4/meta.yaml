@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/tejsh/Downloads/agent_repos/project_triton/mlruns/954990246139544699/034fae74cac449cba973f324b1969ff4/artifacts
+end_time: 1759694686997
+entry_point_name: ''
+experiment_id: '954990246139544699'
+lifecycle_stage: active
+run_id: 034fae74cac449cba973f324b1969ff4
+run_name: bold-hawk-85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759694686832
+status: 3
+tags: []
+user_id: tejsh

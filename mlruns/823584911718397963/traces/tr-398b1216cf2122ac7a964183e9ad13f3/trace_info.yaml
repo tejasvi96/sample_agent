@@ -1,0 +1,21 @@
+execution_duration_ms: 22884
+request_preview: '{"input_str": "Search for a person named Sheikh Mohamed bin Zayed",
+  "transaction_statement_path": null}'
+request_time: '2025-10-05T21:12:49.865Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Sheikh
+  Mohamed bin Zayed\",\n    \"overall_risk_rating\": \"Medium\",\n    \"is_red_flag\":
+  \"Yes\",\n    \"summary\": \"Sheikh Mohamed bin Zayed poses a medium risk due to
+  potential associations with high-risk individuals. Further monitoring and enhanced
+  due diligence are recommended.\"\n  },\n  \"long_answer\": {\n    \"basic_information\":
+  {\n      \"full_name\": \"Sheikh Mohamed bin Zayed\",\n      \"aliases\": \"MBZ\",\n      \"country_of_origin\":
+  \"United Arab Emirates\",\n      \"primary_business_or_occupation\": \"Crown Prince
+  of Abu Dhabi, Deputy Supreme Commander of the UAE Armed Forces\",\n      \"known_associates\":
+  \"Sheikh Khalifa bin Zayed Al Nahyan (President of the UAE)\",\n      \"sources\":
+  [\"https://en.wikipedia.org/wiki/Mohammed_bin_Zayed_Al_Nahyan\", \"https://www.bloomberg.com/profile/person/15223589\"]\n    },\n    \"risk_checklist\":
+  {\n      \"pep_status\": { \"status\": \"Yes\", \"details\": \...'
+state: OK
+trace_id: tr-398b1216cf2122ac7a964183e9ad13f3
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

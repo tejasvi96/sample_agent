@@ -1,0 +1,12 @@
+execution_duration_ms: 7
+request_preview: '{"transaction_file": "./high_net_worth_statement.csv"}'
+request_time: '2025-10-05T20:04:46.949Z'
+response_preview: '{"transaction_file": "./high_net_worth_statement.csv", "content":
+  ["YES, as per the transaction monitoring activity, the individual has made a high
+  value transaction of more than 100000 $ in last 1 month"]}'
+state: OK
+trace_id: tr-adc03c9a1a8c21bc0afa122579bcfcae
+trace_location:
+  mlflow_experiment:
+    experiment_id: '954990246139544699'
+  type: MLFLOW_EXPERIMENT

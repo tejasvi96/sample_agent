@@ -1,0 +1,21 @@
+execution_duration_ms: 20274
+request_preview: '{"input_str": "Search for an entity named Axact", "transaction_statement_path":
+  null}'
+request_time: '2025-10-05T21:17:07.085Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Axact\",\n    \"overall_risk_rating\":
+  \"High\",\n    \"is_red_flag\": \"Yes\",\n    \"summary\": \"Axact is a high-risk
+  entity due to its involvement in a major diploma mill scandal, leading to legal
+  issues and reputational damage.\"\n  },\n  \"long_answer\": {\n    \"basic_information\":
+  {\n      \"full_name\": \"Axact\",\n      \"aliases\": \"Bol Group\",\n      \"country_of_origin\":
+  \"Pakistan\",\n      \"primary_business_or_occupation\": \"Software and IT services\",\n      \"known_associates\":
+  \"Shoaib Ahmed Shaikh (CEO)\",\n      \"sources\": [\"https://en.wikipedia.org/wiki/Axact\",
+  \"https://www.bbc.com/news/world-asia-32702575\"]\n    },\n    \"risk_checklist\":
+  {\n      \"pep_status\": { \"status\": \"No\", \"details\": \"Not applicable\" },\n      \"sanctions_watchlists\":
+  { \"status\": \"No\", \"details\": \"Not found in sanctions lists\" },\n      \"adverse_media\":
+  { \"status\": \"High\", \"details\": [\"...'
+state: OK
+trace_id: tr-a9891a5179ff59ad3d327c12a618e679
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT

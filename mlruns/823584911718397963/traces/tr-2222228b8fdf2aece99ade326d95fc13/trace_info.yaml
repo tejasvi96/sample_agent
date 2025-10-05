@@ -1,0 +1,22 @@
+execution_duration_ms: 15278
+request_preview: '{"input_str": "Search for an entity named Axact", "transaction_file":
+  null}'
+request_time: '2025-10-05T20:45:53.281Z'
+response_preview: '{"plan_of_action": "{\n  \"short_answer\": {\n    \"name\": \"Axact\",\n    \"overall_risk_rating\":
+  \"HIGH\",\n    \"is_red_flag\": \"Requires immediate action - potential involvement
+  in fraudulent activities and money laundering\",\n    \"summary\": \"Axact is a
+  company based in Pakistan that has been involved in fraudulent activities, including
+  running a fake online university scam. The company''s CEO, Shoaib Ahmed Shaikh,
+  has faced legal troubles and the company has been linked to money laundering activities.
+  Due to these red flags, Axact poses a high risk and immediate action is recommended
+  to prevent any association with such activities.\"\n  }\n}", "content": ["NO, There
+  is no information related to Transaction monitoring activity"], "media": ["Whatever
+  the answer, the report could not have rocked Pakistan like it did if it was not
+  for the fact that Axact, a software company, was planning to launch a multi-platform
+  print and electronic media group called Bol (Speak Up). The mi...'
+state: OK
+trace_id: tr-2222228b8fdf2aece99ade326d95fc13
+trace_location:
+  mlflow_experiment:
+    experiment_id: '823584911718397963'
+  type: MLFLOW_EXPERIMENT
